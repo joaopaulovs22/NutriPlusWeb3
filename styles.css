@@ -20,6 +20,9 @@ a{
    
  
 }
+.section--beneficios{
+    margin-top: 20rem;
+}
 a:hover{
     opacity: .5;
        
@@ -48,10 +51,14 @@ a:hover{
 }
 .rodape{
     color:  #009140;
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-    justify-content: center;
+    margin-left: 20rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+   
+}
+.section--rodape{
+    margin-top: 10rem;
+    
 }
  
 .cardArthur, .cardJoao, .cardJonathan, .cardMaria{
@@ -70,8 +77,8 @@ a:hover{
 .icons{
     width:2.5rem;
     height:2.5rem;
-    align-items: center;
-    text-align: center;
+    align-items: center;    
+   
 }
 .table, tr, td{
     border: none;
@@ -80,10 +87,12 @@ a:hover{
    
 }
 .p1{
-    font-family:"Montserrat", sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;        
-    margin-left: 3rem;
+    font-family: "Lilita One", sans-serif;
+    font-size: 3rem;
+   
+    margin-bottom: 2rem;       
+    
+    text-align: center;
     color: black;
  
 }
@@ -104,11 +113,14 @@ a:hover{
     padding-left: 5rem;
     justify-content: space-between;
    
+    
+   
  
 }
 .imgCelular{
    width: 20rem;
-   height: 40rem;
+   height: 100%;
+   margin-right: 10rem;
  
 }
 .section--img{
@@ -118,6 +130,7 @@ a:hover{
 }
 .section--texto{
     margin-top: 2.5rem;
+    margin-right: 10rem;
 }
  
 .txtPrincipal{
@@ -171,12 +184,30 @@ a:hover{
     gap: 5rem;
     align-items: center;
     margin: 3rem;
+    
+}
+.card{
+    color: rgb(0, 0, 0);
+    font-family: "Questrial", sans-serif;
+   
+    
+}
+.card-title{
+    color: rgb(0, 0, 0);
+    font-family: "Lilita One", sans-serif;  
 }
  
 .card1{
     width: 25rem;  
     height: 25rem;
  
+}
+.txtNomes{
+    color: rgb(0, 0, 0);
+    font-family: "Lilita One", sans-serif;  
+    padding-top: 1rem;
+    padding-left: 3rem;
+    font-size: 1.5  rem;
 }
  
 .card2{
