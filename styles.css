@@ -104,6 +104,10 @@ a:hover{
     color: black;
     padding-left: 5rem;
     justify-content: space-between;
+    font-family: "Questrial", sans-serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+    
 }
  
 .section--central{
@@ -162,13 +166,7 @@ a:hover{
     background-color: #009140;
 }
  
-.txtPagina2{
-    font-family: "Questrial", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    margin-top: 2rem;
-}
+
  
 .saibaMais{
     display: flex;
@@ -232,39 +230,46 @@ a:hover{
         gap: 0.5rem;
         font-size: 1rem;
         height: 3rem;
+        padding-right: 1rem;
         padding-bottom: 2rem;
     }  
  
     .txtPrincipal {
-        font-size: 2rem;
+        font-size: 3rem;
         align-items: center ;
     }
     .txtPrincipal2{
         font-size: 2rem;
-        padding-right: 1rem;
-        padding-left: 1rem;
+        padding-right: 2rem;
+        
     }
     .txtPagina2{
         font-size: 1.2rem;
-        padding-left: 2rem;
-        padding-right: 1rem;
+         padding-left: 1rem;
+        padding-right: 4rem;
     }
  
     .section--central {
         flex-direction: column;
-        align-items: center;
         padding-left: 2rem;
+       
     }
     .section--img {
-        padding-right: 2rem;
+        padding-right: 3rem;
+    }
+    .section--beneficios{
+        margin-top: 5rem;
+        margin-left: 2rem;
     }
  
     .txtSecundario {
         font-size: 1.2rem;
+       
     }
  
     .imgCelular {
-        max-width: 100%;
+        width: 100%;
+        padding-right: 3rem;
         height: auto;
     }
  
