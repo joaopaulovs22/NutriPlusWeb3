@@ -51,7 +51,9 @@ a:hover{
 }
 .rodape{
     color:  #009140;
-    margin-left: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-bottom: 5rem;
     margin-top: 5rem;
    
@@ -64,8 +66,8 @@ a:hover{
 .cardArthur, .cardJoao, .cardJonathan, .cardMaria{
     width: 20rem;
     height: 20rem;
-    align-items: left;
-    text-align: left;
+   
+    text-align: center;
  
  
 }
@@ -203,9 +205,8 @@ a:hover{
 .txtNomes{
     color: rgb(0, 0, 0);
     font-family: "Lilita One", sans-serif;  
-    padding-top: 1rem;
-    padding-left: 3rem;
-    font-size: 1.5  rem;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
 }
  
 .card2{
