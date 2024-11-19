@@ -54,9 +54,17 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    gap: 2rem;
+    margin-bottom: 2rem;
    
+}
+.section--dupla, .section--dupla2{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+
+
 }
 .section--rodape{
     margin-top: 10rem;
@@ -64,10 +72,13 @@ a:hover{
 }
  
 .cardArthur, .cardJoao, .cardJonathan, .cardMaria{
-    width: 20rem;
-    height: 20rem;
-   
+    width: 100%;
     text-align: center;
+    padding: 2rem;
+    border: solid 1px black;
+    border-radius: 10%;
+    
+    
  
  
 }
@@ -75,6 +86,7 @@ a:hover{
 .card-img-top2{
     width: 15rem;
     height: 13rem;
+    border-radius: 1rem;
 }
 .icons{
     width:2.5rem;
@@ -236,8 +248,8 @@ a:hover{
     }  
  
     .txtPrincipal {
-        font-size: 3rem;
-        align-items: center ;
+        font-size: 2rem;
+        text-align: center;
     }
     .txtPrincipal2{
         font-size: 2rem;
@@ -255,8 +267,14 @@ a:hover{
         padding-left: 2rem;
        
     }
+    .section--texto{
+        margin-top: 2.5rem;
+        margin-right: 1rem;
+    }
+
     .section--img {
-        padding-right: 3rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     .section--beneficios{
         margin-top: 5rem;
@@ -269,9 +287,12 @@ a:hover{
     }
  
     .imgCelular {
-        width: 100%;
+        width: 20rem;
         padding-right: 3rem;
         height: auto;
+    }
+    .saibaMais{
+        margin-bottom: 1rem;
     }
  
     .cards {
@@ -324,13 +345,26 @@ a:hover{
     }
     .rodape{
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
        
+    }
+    .section--rodape{
+        margin-top: 3rem;
+    }
+    .section--dupla, .section--dupla2{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
     }
     .cardArthur, .cardJoao, .cardJonathan, .cardMaria{
         width: 10rem;
-        height: 20rem;
+        height: 100%;
         align-items: left;
-        text-align: left;
+        padding: 1rem;
+
     }
     .icons{
         width:2rem;
@@ -341,9 +375,10 @@ a:hover{
     .card-img-top2{
         width: 5rem;
         height: 5rem;
+        border-radius: 0.5rem;
     }
     .txtNomes{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         align-items: center;
         text-align: center;
     }
